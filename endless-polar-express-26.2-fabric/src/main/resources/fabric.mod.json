@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "endlessexpress",
+  "version": "${version}",
+  "name": "Endless Polar Express",
+  "description": "3-Week Java & Bedrock cross-play Christmas train survival event.",
+  "authors": ["ServerAdmin"],
+  "license": "MIT",
+  "environment": "server",
+  "entrypoints": {
+    "server": [
+      "com.endlessexpress.EndlessExpressMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.2",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
